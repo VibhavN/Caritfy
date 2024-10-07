@@ -13,7 +13,7 @@ export const ProductPage = () => {
     <div className="product-page">
       <div className="product-container">
         <div className="product-image-carousel">
-          <ImageCarousel images={product.images} />
+          <ImageCarousel key={product.id} product={product} />
         </div>
         <div className="product-details">
           <h1 className="product-title">{product.name}</h1>

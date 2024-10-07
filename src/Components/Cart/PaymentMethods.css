@@ -2,18 +2,16 @@
   background-color: #fff;
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 40rem; 
-  width: 100%; 
+  max-width: 25rem; 
+  width: 100%;
   text-align: center;
 }
 
-
-
 .payment-methods h2 {
-  font-size: 1.6rem;
-  margin-bottom: 2rem; 
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem; 
   color: #333;
-  text-align: center; 
+  text-align: center;
 }
 
 .payment-methods form {
@@ -23,30 +21,30 @@
 }
 
 label {
-  font-size: 1.2rem;
-  margin-bottom: 0.8rem; 
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
   color: #555;
 }
 
 .payment-details input {
   width: 100%;
-  padding: 1rem; 
-  margin-top: 0.5rem;
+  padding: 0.7rem; 
+  margin-top: 0.3rem; 
   border: 1px solid #ddd;
   border-radius: 0.3rem;
-  font-size: 1rem; 
+  font-size: 0.95rem; 
 }
 
 .confirm-btn {
   width: 100%;
-  padding: 1rem; 
+  padding: 0.7rem; 
   background-color: #2196f3;
   color: white;
   border: none;
   border-radius: 0.3rem;
-  font-size: 1rem; 
+  font-size: 0.95rem; 
   cursor: pointer;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem; 
 }
 
 .confirm-btn:hover {
@@ -54,8 +52,34 @@ label {
 }
 
 
+@media (max-width: 768px) {
+  .payment-methods {
+    max-width: 85vw; 
+  }
+
+  .payment-details input {
+    padding: 0.6rem; 
+    font-size: 0.9rem;
+  }
+
+  .confirm-btn {
+    padding: 0.6rem;
+  }
+}
+
 @media (max-width: 600px) {
   .payment-methods {
-    width: 90vw; 
+    width: 90vw;
+    padding: 1.2rem; 
+  }
+
+  .payment-details input {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .confirm-btn {
+    padding: 0.6rem;
+    font-size: 0.9rem; 
   }
 }
