@@ -1,10 +1,13 @@
 .payment-methods {
   background-color: #fff;
-  padding: 2rem; 
+  padding: 2rem;
   margin: 2rem auto;
-  margin-bottom: 3rem 0; 
   max-width: 40rem; 
+  width: 100%; 
+  text-align: center;
 }
+
+
 
 .payment-methods h2 {
   font-size: 1.6rem;
